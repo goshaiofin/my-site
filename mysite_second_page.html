@@ -12,7 +12,10 @@
     // Please use Strings, Numbers, or Bools for value types.
     pendo.initialize({
       visitor: {
-        id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
+        id:              'VISITOR-UNIQUE-ID',   // Required if user is logged in
+        email:       'goshaiofin@gmail.com',
+        role:         'TSE',
+        dateFirstTest: 558306000000
         // email:        // Optional
         // role:         // Optional
 
@@ -21,7 +24,9 @@
       },
 
       account: {
-        id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
+        id:           'ACCOUNT-UNIQUE-ID', // Highly recommended
+        name:         'Support',
+        is_trial: true
         // name:         // Optional
         // planLevel:    // Optional
         // planPrice:    // Optional
