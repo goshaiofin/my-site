@@ -1,10 +1,6 @@
 <html>
   <head>
     <script>
-sanitizeUrl: function (url) {
-            var cleanUrl = url.replace('/mysite.html', '/mysite.html?q=1');
-            return cleanUrl;
-        },
     (function(apiKey){
       (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
         v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
@@ -45,6 +41,12 @@ sanitizeUrl: function (url) {
         }
       });
     })('5dab8071-dcc9-49f5-5870-5d5ced212500');
+</script>
+<script>
+sanitizeUrl: function (url) {
+            var cleanUrl = url.replace('/mysite.html', '/mysite.html?q=1');
+            return cleanUrl;
+        };
 </script>
 <title>This my site!!!</title>
   </head>
